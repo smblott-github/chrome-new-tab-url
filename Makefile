@@ -5,4 +5,10 @@ build:
 auto:
 	coffee -w -c .
 
-# Note to self.  Chrome store version build with chromi PEM.
+pack:
+	cd .. && \
+	   zip -r chrome-new-tab-url.zip chrome-new-tab-url \
+	   	-x chrome-new-tab-url/.git'*' \
+		-x chrome-new-tab-url/'*'.coffee \
+		-x chrome-new-tab-url/'*'.md \
+		-x chrome-new-tab-url/Makefile

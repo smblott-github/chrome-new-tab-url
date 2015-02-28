@@ -1,6 +1,5 @@
 
 $ = (id) -> document.getElementById id
-defaultURL = "http://www.this-page-intentionally-left-blank.org/"
 
 document.addEventListener "keyup", (event) ->
   if event.ctrlKey and event.keyCode == 13

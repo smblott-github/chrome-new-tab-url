@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "New tab URL",
-  "version": "1.0",
+  "version": "1.0.1",
   "description": "Redirect new tabs to a given URL.",
   "options_page": "options.html",
   "chrome_url_overrides": { "newtab": "redirect.html" },
