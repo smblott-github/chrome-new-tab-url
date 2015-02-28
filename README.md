@@ -6,3 +6,5 @@ page](http://www.this-page-intentionally-left-blank.org/), but you can change
 that on the extension's options page.  The extension was written as a
 super-simple, lightweight alternative [New Tab
 Redirect](https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna?utm_source=chrome-app-launcher-info-dialog).
+
+Available on the [Chrome Store](https://chrome.google.com/webstore/detail/new-tab-url/njigpponciklokfkoddampoienefegcl).
