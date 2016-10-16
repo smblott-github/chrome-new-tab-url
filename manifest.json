@@ -5,5 +5,6 @@
   "description": "Redirect new tabs to a given URL.",
   "options_page": "options.html",
   "chrome_url_overrides": { "newtab": "redirect.html" },
-  "permissions": [ "storage" ]
+  "permissions": [ "storage" ],
+  "web_accessible_resources": [ "blank.html" ]
 }
