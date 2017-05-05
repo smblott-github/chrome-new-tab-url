@@ -10,3 +10,5 @@ Redirect](https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehi
 One use for this is with [Vimium](https://github.com/philc/vimium).  Vimium does not run on the built-in new-tab page.  After redirecting new tabs (opened with `Ctrl-T`) to a blank page, say, Vimium is immediately active.
 
 Available on the [Chrome Store](https://chrome.google.com/webstore/detail/new-tab-url/njigpponciklokfkoddampoienefegcl).
+
+If you select *Allow access to file URLs* on the extensions page, then you can set the redirection URL (on the options page) to a `file://...` URL.
