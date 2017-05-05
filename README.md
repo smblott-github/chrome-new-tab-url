@@ -1,5 +1,7 @@
 # Redirect Chrome's New-Tab URL
 
+**Note**: The newest version (1.0.2) requires additional permissions.  You will have to re-enable it on the Chrome extensions page.  See #8.
+
 This is a simple extension to redirect Chrome's new-tab page (`chrome://newtab`)
 to a URL of your choice.  By default, it redirects to this more-or-less [blank
 page](http://www.this-page-intentionally-left-blank.org/), but you can change
