@@ -1,10 +1,15 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "New tab URL",
   "version": "1.0.2",
   "description": "Redirect new tabs to a given URL.",
   "options_page": "options.html",
   "chrome_url_overrides": { "newtab": "redirect.html" },
-  "permissions": [ "storage","file:///*" ],
-  "web_accessible_resources": [ "blank.html" ]
+  "permissions": [ "storage" ],
+  "web_accessible_resources": [
+    {
+      "resources": [ "blank.html" ],
+      "matches": [ "<all_urls>" ]
+    }
+  ]
 }

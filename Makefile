@@ -5,10 +5,10 @@ build:
 auto:
 	coffee -w -c .
 
-pack:
-	cd .. && \
-	   zip -r chrome-new-tab-url.zip chrome-new-tab-url \
-	   	-x chrome-new-tab-url/.git'*' \
-		-x chrome-new-tab-url/'*'.coffee \
-		-x chrome-new-tab-url/'*'.md \
-		-x chrome-new-tab-url/Makefile
+dist = dist/chrome-new-tab-url.zip
+dist:
+	mkdir -p dist
+	rm -f $(dist)
+	zip -r $(dist) manifest.json *.html *.js
+
+.PHONY: build auto dist
